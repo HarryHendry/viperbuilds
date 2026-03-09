@@ -185,6 +185,28 @@ font-weight:bold;
     margin: 4rem;
 }
 
+
+.about-section {
+    text-align: center;
+    padding: 6rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.about-section h2 {
+    margin: 2rem;
+}
+
+.about-section ul li {
+    list-style-type: none;
+}
+.about-section ol li {
+    list-style-type: none;
+}
+
+
+
 footer {
     border-top: 5px solid var(--blue);
 text-align:center;
