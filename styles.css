@@ -79,8 +79,10 @@ background-color: #004996;
 }
 
 .hero p {
-    margin: 1rem;
+    margin: 2rem;
 }
+
+
 
 .cta {
 background: var(--red);
@@ -88,14 +90,22 @@ color: var(--white);
 padding:10px 20px;
 text-decoration:none;
 
+
+
 }
 
+
+
+
+
 .services {
+    padding: 3rem;
 display:flex;
 justify-content:center;
 gap:30px;
 
 }
+
 
 .pricing {
 text-align:center;
@@ -104,15 +114,40 @@ padding:60px;
 }
 
 .price-card {
-border:1px solid #ddd;
-padding:30px;
+
+padding: 1.5rem;
 max-width:300px;
-margin:auto;
+margin: 3rem auto;
+border-radius: 10px;
+background-color: var(--blue);
+}
+
+.price-card ul li {
+    list-style-type: none;
+}
+
+.bg-card {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 30px;
+    color: var(--black);
+    margin-bottom: 2rem;
+}
+
+.get-started {
+    background-color: var(--red);
+    padding: 1rem 2rem;
+    color: var(--white);
+    border-radius: 10px;
 }
 
 .price {
 font-size:32px;
 font-weight:bold;
+}
+
+.message {
+    text-align: center;
 }
 
 footer {
