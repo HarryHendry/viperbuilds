@@ -32,6 +32,7 @@
     position: relative;
     right: 55px;
     bottom: 3px;
+    color: var(--yellow);
 }
 
 
@@ -68,6 +69,15 @@ list-style:none;
 
 nav ul li a {
     color: white;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: var(--black);
+    background-color: var(--yellow);
+    font-size: 1.3rem;
 }
 
 .hero {
@@ -103,7 +113,11 @@ text-decoration:none;
 display:flex;
 justify-content:center;
 gap:30px;
+font-size: 1.4rem;
+}
 
+.services h4 {
+    color: var(--blue);
 }
 
 
@@ -111,6 +125,10 @@ gap:30px;
 text-align:center;
 padding:60px;
 
+}
+
+.pricing h3 {
+    font-size: 2rem;
 }
 
 .price-card {
@@ -148,6 +166,7 @@ font-weight:bold;
 
 .message {
     text-align: center;
+    margin: 2rem;
 }
 
 footer {
