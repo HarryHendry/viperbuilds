@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --black: #000000; /* */
+    --white: #ffffff;
+    --blue: #004996;
+    --red: #e63027;
+    --yellow: #ffd400;
+    --neon-green: #00ff37;
+    --cyan: #00ffff;
+    --magenta: #ff00ff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    position: relative;
+    right: 55px;
+    bottom: 3px;
+}
+
+
+body {
+  
+font-family: Arial, sans-serif;
+margin:0 auto;
+line-height:1.6;
+background-color: var(--black);
+color: var(--white);
+}
+
+header {
+background-color: var(--black);
+color:white;
+padding:20px;
+display: flex;
+justify-content: space-between;
+ font-family: "Barlow", sans-serif;
+ border-bottom: 10px solid var(--blue)
+}
+
+nav {
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul {
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.hero {
+padding:100px 20px;
+text-align:center;
+font-size: 1.8rem;
+margin-bottom: 2rem;
+background-color: #004996;
+}
+
+.hero p {
+    margin: 1rem;
+}
+
+.cta {
+background: var(--red);
+color: var(--white);
+padding:10px 20px;
+text-decoration:none;
+
+}
+
+.services {
+display:flex;
+justify-content:center;
+gap:30px;
+
+}
+
+.pricing {
+text-align:center;
+padding:60px;
+
+}
+
+.price-card {
+border:1px solid #ddd;
+padding:30px;
+max-width:300px;
+margin:auto;
+}
+
+.price {
+font-size:32px;
+font-weight:bold;
+}
+
+footer {
+text-align:center;
+padding:30px;
+background:#111;
+color:white;
+}
