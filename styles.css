@@ -71,7 +71,7 @@ nav ul li a {
     color: white;
     font-size: 1.3rem;
     padding: 1rem 2rem;
-    border-radius: 10px;
+    border-radius: 20px;
     text-decoration: none;
 }
 nav ul li a:hover {
@@ -99,6 +99,13 @@ background: var(--red);
 color: var(--white);
 padding:10px 20px;
 text-decoration:none;
+border-radius: 15px;
+
+
+}
+.cta:hover {
+background: rgb(186, 0, 0);
+
 
 
 
@@ -111,13 +118,17 @@ text-decoration:none;
 .services {
     padding: 3rem;
 display:flex;
-justify-content:center;
+justify-content:space-around;
 gap:30px;
-font-size: 1.4rem;
+font-size: 1.2rem;
+max-width: 1000px;
+margin: 0 auto;
 }
 
-.services h4 {
-    color: var(--blue);
+.service h4 {
+    color: var(--yellow);
+    margin-bottom: 1.3rem;
+    font-size: 1.6rem;
 }
 
 
@@ -136,7 +147,7 @@ padding:60px;
 padding: 1.5rem;
 max-width:300px;
 margin: 3rem auto;
-border-radius: 10px;
+border-radius: 20px;
 background-color: var(--blue);
 }
 
@@ -146,7 +157,7 @@ background-color: var(--blue);
 
 .bg-card {
     background-color: var(--white);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 30px;
     color: var(--black);
     margin-bottom: 2rem;
@@ -156,7 +167,12 @@ background-color: var(--blue);
     background-color: var(--red);
     padding: 1rem 2rem;
     color: var(--white);
-    border-radius: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.get-started:hover {
+    background: rgb(186, 0, 0);
 }
 
 .price {
@@ -166,12 +182,13 @@ font-weight:bold;
 
 .message {
     text-align: center;
-    margin: 2rem;
+    margin: 4rem;
 }
 
 footer {
+    border-top: 5px solid var(--blue);
 text-align:center;
-padding:30px;
-background:#111;
+padding:3rem ;
+background:var(--black);
 color:white;
 }
