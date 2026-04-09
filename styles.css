@@ -105,6 +105,7 @@ background-color: var(--navy-blue);
 .project-image-container img {
     height: 100%;
     width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -146,11 +147,19 @@ margin: 0 auto;
     font-size: 1.6rem;
 }
 
+.price-card  {
+    background-color: #000000;
+}
+
 
 .pricing {
 text-align:center;
 padding:60px;
-
+display: flex;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+gap: 2rem;
 }
 
 .pricing h3 {
@@ -164,6 +173,23 @@ max-width:300px;
 margin: 3rem auto;
 border-radius: 20px;
 background-color: var(--green);
+}
+.wedding-card {
+
+padding: 1.5rem;
+max-width:300px;
+margin: 3rem auto;
+border-radius: 20px;
+background-color: var(--cream-yellow);
+}
+.business-card {
+position: relative;
+bottom: 5rem;
+padding: 1.5rem;
+max-width:300px;
+margin: 3rem auto;
+border-radius: 20px;
+background-color: var(--light-green);
 }
 
 .price-card ul li {
