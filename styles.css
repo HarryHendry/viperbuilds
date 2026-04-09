@@ -87,6 +87,10 @@ nav ul li a:hover {
 }
 
 .hero {
+
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
 padding:100px 20px;
 text-align:center;
 font-size: 1.8rem;
@@ -98,11 +102,16 @@ background-color: var(--navy-blue);
     margin: 2rem;
 }
 
+.project-image-container img {
+    height: 100%;
+    width: 100%;
+}
+
 
 
 .cta {
 background: var(--light-green);
-color: var(--white);
+color: var(--navy-blue);
 padding:10px 20px;
 text-decoration:none;
 border-radius: 15px;
