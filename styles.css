@@ -220,12 +220,27 @@ font-weight:bold;
     list-style-type: none;
 }
 
+.grid-container {
+    max-width: 1200px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.about-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 
 footer {
-    border-top: 5px solid var(--blue);
+    
 text-align:center;
 padding:3rem ;
-background:var(--black);
+background:var(--navy-blue);
 color:white;
 }
