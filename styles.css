@@ -283,6 +283,19 @@ font-weight:bold;
     height: 100%;
     width: 100%;
 }
+.project-three {
+   
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 4fr 1fr;
+    margin: 5rem auto;
+    text-align: center;
+}
+.project-three img {
+
+    height: 100%;
+    width: 100%;
+}
 
 
 
