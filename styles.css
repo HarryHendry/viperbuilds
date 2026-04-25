@@ -261,6 +261,32 @@ font-weight:bold;
     border-radius: 10px;
 }
 
+.max-width {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-one {
+  
+    margin: 0 auto;
+   }
+
+   .project-one img {
+    height: 100%;
+    width: 100%;
+   }
+
+.project-two {
+    margin: 0 auto;
+}
+.project-two img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
 
 
 footer {
