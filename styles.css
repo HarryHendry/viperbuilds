@@ -266,10 +266,9 @@ font-weight:bold;
     margin: 0 auto;
 }
 
-.project-one {
-  
-    margin: 0 auto;
-   }
+.project-one p{
+    margin: 1rem 0;
+}
 
    .project-one img {
     height: 100%;
@@ -280,6 +279,7 @@ font-weight:bold;
     margin: 0 auto;
 }
 .project-two img {
+    margin-top: 5rem;
     height: 100%;
     width: 100%;
 }
