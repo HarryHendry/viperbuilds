@@ -262,8 +262,9 @@ font-weight:bold;
 }
 
 .max-width {
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 2rem;
 }
 
 .project-one p{
@@ -297,8 +298,33 @@ font-weight:bold;
     width: 100%;
 }
 
+.poster-container {
+    display: flex;
+   justify-content: space-between;
+    margin: 5rem 0;
+}
+
+.poster-card {
+    max-height: 500px;
+    max-width: 300px;
+}
+
+.poster-card img {
+    height: 100%;
+    width: 100%;
+}
 
 
+.social-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gridcard img {
+    height: 100%;
+    width: 100%;
+}
 
 
 
