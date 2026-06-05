@@ -24,7 +24,7 @@
 }
 
 .logo img {
-    height: 150px;
+    
     width: 150px;
 }
 
@@ -47,18 +47,17 @@ body {
 font-family: Arial, sans-serif;
 margin:0 auto;
 line-height:1.6;
-background-color: var(--navy-blue);
+
 color: var(--white);
 }
 
 header {
-background-color: var(--navy-blue);
-color:white;
+background-color: white;
 padding:20px;
 display: flex;
 justify-content: space-between;
  font-family: "Barlow", sans-serif;
- background-color: var(--navy-blue);
+ color: #000000;
 }
 
 nav {
@@ -74,11 +73,12 @@ list-style:none;
 }
 
 nav ul li a {
-    color: white;
+    color: #041122;
     font-size: 1.3rem;
     padding: 1rem 2rem;
     border-radius: 20px;
     text-decoration: none;
+    font-weight: 600;
 }
 nav ul li a:hover {
     color: var(--black);
@@ -95,7 +95,7 @@ padding:100px 20px;
 text-align:center;
 font-size: 1.8rem;
 margin-bottom: 2rem;
-background-color: var(--navy-blue);
+color: #000000;
 }
 
 .hero p {
