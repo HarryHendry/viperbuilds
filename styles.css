@@ -97,7 +97,7 @@ nav ul li a:hover {
     grid-template-columns: 1fr 1fr;
 padding:100px 20px;
 text-align:center;
-font-size: 1.8rem;
+font-size: 1.4rem;
 margin-bottom: 2rem;
 color: var(--navy-blue);
 }
