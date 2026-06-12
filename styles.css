@@ -292,6 +292,8 @@ background: var(--navy-blue);
 .services {
     padding: 3rem;
 display:flex;
+flex-direction: column;
+
 justify-content:space-around;
 gap:30px;
 font-size: 1.2rem;
@@ -302,6 +304,7 @@ margin: 0 auto;
 .service {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 2rem;
+    border-radius: 10px;
 }
 
 .service h4 {
@@ -319,6 +322,7 @@ margin: 0 auto;
 text-align:center;
 padding:60px;
 display: flex;
+flex-wrap: wrap;
 margin: 0 auto;
 justify-content: center;
 align-items: center;
@@ -347,8 +351,7 @@ background-color: var(--cream-yellow);
 
 }
 .business-card {
-position: relative;
-bottom: 5rem;
+
 padding: 1.5rem;
 max-width:300px;
 margin: 3rem auto;
