@@ -423,7 +423,21 @@ font-weight:bold;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin: 2rem auto;
+    padding: 2rem;
 }
+
+@media only screen and (max-width: 900px) {
+    .grid-container {
+    max-width: 1200px;
+    
+    display: grid;
+    grid-template-columns:  1fr;
+    gap: 2rem;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+}
+
 
 .about-image img {
     height: 100%;
@@ -435,6 +449,19 @@ font-weight:bold;
     max-width: 1300px;
     margin: 0 auto;
     padding: 2rem;
+}
+
+.about-importance h2 {
+    margin-bottom: 2rem;
+}
+
+.about-importance ul, .about-importance ol {
+    list-style-type: none;
+    
+}
+
+.about-importance ul li, .about-importance ol li {
+    margin: 1rem;
 }
 
 .project-one p{
