@@ -343,6 +343,51 @@ margin: 3rem auto;
 border-radius: 20px;
 background-color: var(--green);
 }
+
+.services-card {
+    max-width: 350px;
+    max-height: 560px;
+    text-align: left;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.services-card p {
+    margin: 1rem 0;
+}
+.services-card h4 {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.services-card-frame {
+    background: url(/images/ai-image-2.png);
+    background-size: cover;
+    font-size: 2rem;
+    font-weight: 900;
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.services-card-color {
+    background-color: #041122;
+    color: white;
+    width: fit-content;
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+
+
+.services-card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
 .wedding-card {
 
 padding: 1.5rem;
