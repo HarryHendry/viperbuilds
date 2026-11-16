@@ -1,239 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>CreateWithHarry | Web Development & Digital Marketing for Businesses</title>
-
-<meta name="description" content="Affordable websites for small businesses. £30 per month including hosting, maintenance and support.">
-
-<link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#10111B" />
+  <meta name="description" content="CreatewithHarry — a creative playground for projects, experiments and ideas." />
+  <title>CreatewithHarry — Make stuff. Stay curious.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-
-<header>
-    <div class="logo">
-        <img src="/images/logo-2.png">
-        
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="CreatewithHarry home"><span class="brand-mark">✳</span><span>create<span class="brand-white">withharry</span><span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+      <nav id="site-nav" class="nav" aria-label="Main navigation"><a href="#work">Work</a><a href="#journal">Journal</a><a href="#about">About</a><a href="#store">Store <span class="soon">soon</span></a><a class="nav-contact" href="#contact">Let's talk <span>↗</span></a></nav>
     </div>
-    <div class="hamburger">
-      <div class="lines"></div>
-      <div class="lines"></div>
-      <div class="lines"></div>
-      
-    </div>
-  <nav class="navbar">
-   
-    <ul>
-      <li><a href="/index.html" class="active">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/projects.html">Projects</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<div class="wrapper">
- 
-  
-<section class="hero">
-<div class="hero-container">
-  <p class="tagline">
-🚀 Websites • SEO • Social Media
-</p>
-<h2>Helping Businesses Grow Online</h2>
-
-<p>Professional websites, local SEO and social media management designed to bring in more customers and grow your business.</p>
-
-<a href="#contact" class="cta">Get In Touch!</a>
-</div>
-<div class="project-image-container">
-  <img src="/images/seabank.jpeg">
-</div>
-</section>
-
-<section class="services-section" id="services">
-
-<div class="section-header">
-  <h2>Everything Your Business Needs To Grow Online</h2>
-  <p>
-    We help local businesses attract more customers, build trust, and grow online through simple, effective digital solutions.
-  </p>
-</div>
-
-<div class="services-grid">
-
-  <div class="service-card">
-    <h3>Web Design & Development</h3>
-    <p>
-      Modern, fast, mobile-friendly websites built to turn visitors into paying customers.
-    </p>
-  </div>
-
-  <div class="service-card">
-    <h3>Search Engine Optimisation</h3>
-    <p>
-      Get found on Google when customers search for your services in your area.
-    </p>
-  </div>
-
-  <div class="service-card">
-    <h3>Google Ads </h3>
-    <p>
-      Improve your visibility on Google Maps and increase calls, reviews, and enquiries.
-    </p>
-  </div>
-
-  <div class="service-card">
-    <h3>Social Media Management</h3>
-    <p>
-      Turn your social channels into 24/7 lead generation machines while you focus on running your business
-    </p>
-  </div>
-
-  <div class="service-card">
-    <h3>Landing Pages That Convert</h3>
-    <p>
-      High-performing pages designed for promotions, services, or lead generation campaigns.
-    </p>
-  </div>
-
-  <div class="service-card">
-    <h3>Video Editing</h3>
-    <p>
-      Hosting, updates, backups, and ongoing improvements so everything runs smoothly.
-    </p>
-  </div>
-
-</div>
-
-<div class="services-cta">
-
-  <h3>Ready To Grow Your Business?</h3>
-  <p>
-    Book a free consultation and let’s build something that brings you real customers.
-  </p>
-
-  <a href="#contact" class="btn-primary">
-    Book Free Consultation
-  </a>
-
-</div>
-
-</section>
-
-<section class="services">
-
-
-
-<div class="service ">
-<h4>1. Get in Touch and make and equiry</h4>
-<p>The first step is to simply get a hold of us. Send us an email and we will discuss a good time to contact you.</p>
-</div>
-
-<div class="service">
-<h4>2. Tell Us About Your Business</h4>
-<p>This is the best opportunity to see if we are right for you. Tell us about your business, your needs and what kind of website you would like!</p>
-</div>
-
-<div class="service ">
-<h4>3. We Build The Product For You</h4>
-<p>We get to building the website, with regular check ups during the development to make sure you are happy with the product before the launch day. </p>
-</div>
-
-
-</section>
-
-<section class="pricing">
-
-<div class="services-card">
-  <div class="services-card-frame">
-    <p>£500 per month</p>
-  </div>
-<p class="services-card-color">Essential</p>
-<p>Instagram</p>
-<h4>Social Media Management</h4>
-<p>10 - 15 posts per month with basic captions. </p>
-<p>createwithharry</p>
-</div>
-<div class="services-card">
-  <div class="services-card-frame">
-    <p>£1000 per month</p>
-  </div>
-<p class="services-card-color">Prime</p>
-<p>Instagram, Facebook</p>
-<h4>Social Media Management</h4>
-<p>30 pieces of content, daily stories, full DM/comment management</p>
-<p>createwithharry</p>
-</div>
-<div class="services-card">
-  <div class="services-card-frame">
-    <p>£2000 per month</p>
-  </div>
-<p class="services-card-color">Signature</p>
-<p>Instagram, Facebook, Website</p>
-<h4>Social Media Management</h4>
-<p>Management of multiple accounts, custom graphics and videos. </p>
-<p>createwithharry</p>
-</div>
-
-
-
-</section>
-
-<section class="message">
-    <h2>"We want to make the process of having a website as easy as possible. We design, build and look after your 
-        website so that you can focus on your business."</h2>
-</section>
-</div>
-<footer class="footer">
-    <div class="footer-container">
-
-        <div class="footer-brand">
-           
-            <div class="qr-card">
-              <img  class="qr-img" src="/images/createwithharry-qr.png">
-              <img class="qr-logo" src="/images/logo-2.png">
-              <p>Scan the qr-code to visit createwithharry.com or share the qr code to others</p>
-            </div>
-        </div>
-
-        <div class="footer-links">
-            <h4>Services</h4>
-            <ul>
-                <li><a href="#">Web Design</a></li>
-                <li><a href="#">SEO</a></li>
-                <li><a href="#">Digital Marketing</a></li>
-                <li><a href="#">Website Maintenance</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-contact">
-            <h4>Get In Touch</h4>
-            <p>harry@createwithharry.com</p>
-            <p>Aberdeen, Scotland</p>
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-        <p>&copy; 2026 CreateWithHarry. All rights reserved.</p>
-    </div>
-</footer>
-<script src="/script.js">
-
-</script>
+  </header>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> A LITTLE CORNER OF THE INTERNET TO MAKE THINGS</div>
+        <h1>Curiosity<br>looks good <span class="scribble">on me<span class="scribble-line"></span></span><span class="heading-star">✳</span></h1>
+        <p>Hey, I'm Harry. I build websites, explore ideas, try new things and share what I learn along the way. Welcome to my creative playground.</p>
+        <div class="hero-actions"><a href="#work" class="btn btn-lime">Explore my work <span>↗</span></a><a href="#about" class="btn btn-outline">Get to know me <span>↗</span></a></div>
+        <div class="hero-footnote"><span class="mini-asterisk">✳</span> Always learning. Always making. Never quite finished.</div>
+      </div>
+      <div class="hero-art reveal" aria-label="Abstract colourful creative illustration">
+        <div class="art-grid"></div><div class="orb orb-purple"></div><div class="orb orb-pink"></div><div class="orb orb-cyan"></div><div class="art-ring"></div><div class="art-squiggle">〰</div><div class="art-flower">✳</div><div class="art-label label-top">IDEAS IN MOTION ↗</div><div class="art-label label-bottom">001 / CREATE / EXPLORE</div><div class="art-smile">:)</div>
+      </div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track">MAKE STUFF <span>✳</span> STAY CURIOUS <span>✳</span> SHOW YOUR WORK <span>✳</span> KEEP GOING <span>✳</span> MAKE STUFF <span>✳</span> STAY CURIOUS <span>✳</span> SHOW YOUR WORK <span>✳</span> KEEP GOING <span>✳</span></div></div>
+    <section class="section container" id="work">
+      <div class="section-top reveal"><div><div class="section-kicker">01 / THE CREATIVE LAB</div><h2>Things I've <em>made<span>.</span></em></h2><p class="section-description">A growing collection of projects, experiments and happy accidents. Here's a taste of what this space could become.</p></div><span class="section-decoration">↘</span></div>
+      <div class="filters" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all" aria-pressed="true">All projects</button><button class="filter" data-filter="web" aria-pressed="false">Web & code</button><button class="filter" data-filter="design" aria-pressed="false">Design</button><button class="filter" data-filter="experiments" aria-pressed="false">Experiments</button></div>
+      <div class="projects-grid">
+        <article class="project-card reveal" data-category="web"><div class="project-visual visual-purple"><div class="mock-browser"><div class="mock-browser-top"><i></i><i></i><i></i></div><div class="mock-browser-content"><span class="mock-pill"></span><div class="mock-heading">hello,<br><b>internet.</b></div><span class="mock-button">Explore ↗</span></div></div><span class="project-visual-star">✦</span></div><div class="project-info"><div class="project-meta"><span>WEB DEVELOPMENT</span><span>01 / CONCEPT</span></div><h3>Personal portfolio playground <span>↗</span></h3><p>A space to experiment with layouts, interactions and modern front-end development.</p></div></article>
+        <article class="project-card reveal" data-category="design"><div class="project-visual visual-coral"><div class="poster"><span>CREATIVE<br>ENERGY</span><strong>✳</strong><small>MAKE SOMETHING TODAY / VOL. 01</small></div><div class="poster-orbit"></div></div><div class="project-info"><div class="project-meta"><span>VISUAL DESIGN</span><span>02 / CONCEPT</span></div><h3>Creative energy poster series <span>↗</span></h3><p>Playful typography, unexpected colours and designs that don't take themselves too seriously.</p></div></article>
+        <article class="project-card reveal" data-category="experiments"><div class="project-visual visual-cyan"><div class="experimental-shape"><div class="shape-ring"></div><div class="shape-ball"></div><span>WHAT IF?</span></div><div class="tiny-code">{ curiosity: true }</div></div><div class="project-info"><div class="project-meta"><span>CREATIVE EXPERIMENT</span><span>03 / CONCEPT</span></div><h3>Little experiments, big ideas <span>↗</span></h3><p>Trying out the weird ideas, small discoveries and creative rabbit holes along the way.</p></div></article>
+      </div>
+      <p class="prototype-note">✳ These are sample project cards for the prototype. We'll replace them with real work as it's created.</p>
+    </section>
+    <section class="manifesto"><div class="container manifesto-inner reveal"><span class="manifesto-label">THE WHOLE POINT ↘</span><h2>Not everything needs to be <span>perfect.</span><br>Some things just need to be <i>made.</i></h2><div class="manifesto-bottom"><p>This is a space for learning out loud, following curiosity, building real things and enjoying the process. The portfolio grows with every attempt.</p><span class="manifesto-icon">✳</span></div></div></section>
+    <section class="section container journal-section" id="journal"><div class="section-top reveal"><div><div class="section-kicker">02 / NOTES FROM THE PROCESS</div><h2>The creative <em>journal<span>.</span></em></h2><p class="section-description">Progress notes, lessons learned and the occasional thought from behind the scenes.</p></div><span class="section-decoration yellow">✳</span></div><div class="journal-grid"><article class="journal-card reveal"><span class="journal-index">001 <span>↗</span></span><span class="journal-category">LEARNING IN PUBLIC</span><h3>Why I'm building a space to share my work</h3><p>The thinking behind CreatewithHarry and the value of showing the process, not just the finished product.</p><span class="journal-bottom">DRAFT IDEA <span>→</span></span></article><article class="journal-card reveal"><span class="journal-index">002 <span>↗</span></span><span class="journal-category">WEB DEVELOPMENT</span><h3>Small projects, better skills</h3><p>How creative experiments can become a practical way to learn design, code and problem-solving.</p><span class="journal-bottom">DRAFT IDEA <span>→</span></span></article><article class="journal-card reveal"><span class="journal-index">003 <span>↗</span></span><span class="journal-category">CREATIVE MINDSET</span><h3>Make it, share it, improve it</h3><p>A reminder that the most useful creative habit might simply be to keep making things.</p><span class="journal-bottom">DRAFT IDEA <span>→</span></span></article></div></section>
+    <section class="section container about-section" id="about"><div class="about-art reveal"><div class="about-art-inner"><span class="about-art-hello">HELLO THERE!</span><span class="about-art-symbol">☺</span><span class="about-art-caption">A WORK IN PROGRESS<br>JUST LIKE THIS WEBSITE.</span></div></div><div class="about-copy reveal"><div class="section-kicker">03 / THE HUMAN BEHIND THE PIXELS</div><h2>Hey, I'm <em>Harry<span>.</span></em></h2><p>I'm a curious maker who enjoys coding, design, learning new skills and bringing ideas to life.</p><p>CreatewithHarry is my home for documenting that journey — a library of things I've built, things I'm figuring out, and things I'm excited to try next.</p><p>No polished expert persona required. Just genuine curiosity, consistent practice and a willingness to experiment.</p><a class="text-link" href="#contact">Have an idea? Let's connect <span>↗</span></a></div></section>
+    <section class="store-strip" id="store"><div class="container store-inner reveal"><div><span class="section-kicker">04 / SOMETHING FOR LATER</span><h2>Useful little things, <em>coming eventually.</em></h2><p>Templates, resources and digital creations may find a home here as the project grows. No rush.</p></div><span class="store-sticker">IN THE<br>WORKS ✳</span></div></section>
+    <section class="contact-section container reveal" id="contact"><div class="contact-spark">✳</div><div class="section-kicker">05 / SAY HELLO</div><h2>Got an idea?<br><span>Let's make something.</span></h2><p>Whether it's a collaboration, a creative project or just a friendly hello, my inbox is open.</p><a class="btn btn-lime" href="mailto:hello@example.com?subject=Hello%20CreatewithHarry">Start a conversation <span>↗</span></a><p class="email-warning">Demo email address — replace <code>hello@example.com</code> before publishing.</p></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">✳</span><span>create<span class="brand-white">withharry</span><span class="brand-dot">.</span></span></a><p>Made with curiosity, caffeine & a little chaos.</p><span>© <span id="year"></span> CreatewithHarry</span></div></footer>
+  <button class="back-top" aria-label="Back to top">↑</button>
 </body>
 </html>
